@@ -1,0 +1,5 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "prodsrv"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCykblZMCs3q8r6nbSq28u6SSJP/RtgqfpRr5TSGdKi6YgO8ISXNQkltamK7XowVub//DSMMKONxl9a2FVVmwVAjYbWEgVyueXAJDS3an/yUD0v+Tz3tlR7cNK+vq/b8pJLmybY23FUwo39orVigmDQxa9N9XnFeOjx798+y5C++gBY3kgQ1FMXFHEEX01uVXsbuRlJzP3XTCMbDz4dldV6o7DKDwtBuM29V3aRlzC7w7N5De1v8+7KGu53cri/m1KPyhucVU8kxfsc/NncmJ1wl8HFsL4UfMFu9EwdPRVPE/dnjhJQa+Ss9MwzgR4lRwnZnoc7SGaMZVp2zrFf7Sbd prodsrv"
+
+}
